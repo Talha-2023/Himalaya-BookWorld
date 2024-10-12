@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 duration-500 ${
+        className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 duration-500 z-10 ${
           sticky ? " shadow-inner  bg-neutral  transition-all ease-in-out" : ""
         }`}
       >
@@ -78,7 +78,7 @@ const Navbar = () => {
               <ul className="menu menu-horizontal px-1">{navItems}</ul>
             </div>
             <div className="hidden md:block">
-              <label className="px-2 py-1 border rounded-md flex items-center gap-2">
+              <label className="px-2 py-1 border border-teal-500  rounded-md flex items-center gap-2">
                 <input
                   type="text"
                   className="grow outline-none bg-transparent"

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "The Lord of the Ring",
+    "title": "This trilogy by J.R.R. Tolkien was incredibly popular when it was first published over 60 years ago.",
+    "price": 0,
+    "category": "Fantasy",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1728724829~exp=1728728429~hmac=dbf5e821fdbcd9f59b83a58fe8085d28f629a2675f8fe3a5bdf37d7fe4efb703&w=740"
+  },
+  {
+    "id": 2,
+    "name": "The Adventures of Sherlock Holmes",
+    "title": "A collection of twelve short stories featuring the famous detective, Sherlock Holmes.",
+    "price": 0,
+    "category": "Mystery",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-detective-elements-set_23-2148373311.jpg?w=740"
+  },
+  {
+    "id": 3,
+    "name": "Pride and Prejudice",
+    "title": "A classic novel by Jane Austen that explores the manners and matrimonial machinations among the British gentry of the early 19th century.",
+    "price": 0,
+    "category": "Romance",
+    "image": "https://img.freepik.com/free-vector/book-cover-design-retro-style_23-2148878945.jpg?w=740"
+  },
+  {
+    "id": 4,
+    "name": "Moby Dick",
+    "title": "Herman Melville’s classic about the obsessive quest of Ahab, captain of the whaler the Pequod, to take revenge on Moby Dick.",
+    "price": 0,
+    "category": "Adventure",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-whale-illustration_23-2149373777.jpg?w=740"
+  },
+  {
+    "id": 5,
+    "name": "1984",
+    "title": "George Orwell's dystopian novel about a totalitarian regime that uses surveillance, censorship, and thought control.",
+    "price": 0,
+    "category": "Dystopian",
+    "image": "https://img.freepik.com/free-vector/dystopian-concept-illustration_23-2149315161.jpg?w=740"
+  },
+  {
+    "id": 6,
+    "name": "The Great Gatsby",
+    "title": "F. Scott Fitzgerald's novel of the Jazz Age, exploring themes of wealth, love, and the American dream.",
+    "price": 200,
+    "category": "Classic",
+    "image": "https://img.freepik.com/free-vector/gatsby-style-invitation-template_23-2148443393.jpg?w=740"
+  },
+  {
+    "id": 7,
+    "name": "Frankenstein",
+    "title": "Mary Shelley's Gothic novel that explores the consequences of playing god and creating life.",
+    "price": 0,
+    "category": "Horror",
+    "image": "https://img.freepik.com/free-vector/illustration-monster-frankenstein-holding-rose_23-2148424896.jpg?w=740"
+  },
+  {
+    "id": 8,
+    "name": "Dracula",
+    "title": "Bram Stoker's vampire novel that introduced Count Dracula and established many conventions of subsequent vampire fantasy.",
+    "price": 400,
+    "category": "Gothic",
+    "image": "https://img.freepik.com/free-vector/dracula-vampire-bat-man_23-2149314191.jpg?w=740"
+  },
+  {
+    "id": 9,
+    "name": "War and Peace",
+    "title": "Leo Tolstoy's historical novel set during the Napoleonic wars in Russia.",
+    "price": 0,
+    "category": "Historical",
+    "image": "https://img.freepik.com/free-vector/historical-military-soldiers-flat-vector-illustration_74855-13988.jpg?w=740"
+  },
+  {
+    "id": 10,
+    "name": "The Odyssey",
+    "title": "Homer's epic poem recounting the adventures of Odysseus as he struggles to return home from the Trojan War.",
+    "price": 600,
+    "category": "Epic",
+    "image": "https://img.freepik.com/free-vector/greek-odyssey-historic-illustration_74855-11246.jpg?w=740"
+  },
+  {
+    "id": 11,
+    "name": "Jane Eyre",
+    "title": "Charlotte Brontë's novel about an orphaned girl’s journey to adulthood and her love for Mr. Rochester.",
+    "price": 0,
+    "category": "Drama",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698287.jpg?w=740"
+  }
+]
