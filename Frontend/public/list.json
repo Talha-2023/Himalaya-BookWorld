@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Pride and Prejudice",
-    "title": "A classic novel by Jane Austen that explores the manners and matrimonial machinations among the British gentry of the early 19th century.",
+    "title": "A classic novel by Jane Austen that explores the manners and matrimonial machinations of the British gentry.",
     "price": 0,
     "category": "Romance",
     "image": "https://img.freepik.com/free-vector/book-cover-design-retro-style_23-2148878945.jpg?w=740"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Moby Dick",
-    "title": "Herman Melville’s classic about the obsessive quest of Ahab, captain of the whaler the Pequod, to take revenge on Moby Dick.",
+    "title": "Herman Melville’s classic about Ahab's obsessive quest for revenge on Moby Dick, the great white whale.",
     "price": 0,
     "category": "Adventure",
     "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-whale-illustration_23-2149373777.jpg?w=740"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "1984",
-    "title": "George Orwell's dystopian novel about a totalitarian regime that uses surveillance, censorship, and thought control.",
+    "title": "George Orwell's dystopian novel about a totalitarian regime that uses surveillance, censorship, and control.",
     "price": 0,
     "category": "Dystopian",
     "image": "https://img.freepik.com/free-vector/dystopian-concept-illustration_23-2149315161.jpg?w=740"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Frankenstein",
-    "title": "Mary Shelley's Gothic novel that explores the consequences of playing god and creating life.",
+    "title": "Mary Shelley's Gothic novel that explores the consequences of creating life and playing god.",
     "price": 0,
     "category": "Horror",
     "image": "https://img.freepik.com/free-vector/illustration-monster-frankenstein-holding-rose_23-2148424896.jpg?w=740"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Dracula",
-    "title": "Bram Stoker's vampire novel that introduced Count Dracula and established many conventions of subsequent vampire fantasy.",
+    "title": "Bram Stoker's vampire novel that introduced Count Dracula and established many conventions of vampire fantasy.",
     "price": 400,
     "category": "Gothic",
     "image": "https://img.freepik.com/free-vector/dracula-vampire-bat-man_23-2149314191.jpg?w=740"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "War and Peace",
-    "title": "Leo Tolstoy's historical novel set during the Napoleonic wars in Russia.",
+    "title": "Leo Tolstoy's historical novel set during the Napoleonic wars in Russia, exploring themes of fate and free will.",
     "price": 0,
     "category": "Historical",
     "image": "https://img.freepik.com/free-vector/historical-military-soldiers-flat-vector-illustration_74855-13988.jpg?w=740"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "The Odyssey",
-    "title": "Homer's epic poem recounting the adventures of Odysseus as he struggles to return home from the Trojan War.",
+    "title": "Homer's epic poem recounting Odysseus's adventures as he struggles to return home from the Trojan War.",
     "price": 600,
     "category": "Epic",
     "image": "https://img.freepik.com/free-vector/greek-odyssey-historic-illustration_74855-11246.jpg?w=740"
@@ -86,5 +86,157 @@
     "price": 0,
     "category": "Drama",
     "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698287.jpg?w=740"
+  },
+  {
+    "id": 12,
+    "name": "To Kill a Mockingbird",
+    "title": "Harper Lee's classic novel about racial injustice and childhood innocence in the Deep South.",
+    "price": 300,
+    "category": "Classic",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698289.jpg?w=740"
+  },
+  {
+    "id": 13,
+    "name": "The Catcher in the Rye",
+    "title": "J.D. Salinger's iconic novel about teenage alienation and rebellion, told through the eyes of Holden Caulfield.",
+    "price": 250,
+    "category": "Classic",
+    "image": "https://img.freepik.com/free-vector/retro-book-cover-design-template_23-2148884725.jpg?w=740"
+  },
+  {
+    "id": 14,
+    "name": "Brave New World",
+    "title": "Aldous Huxley’s dystopian novel exploring a world of advanced technology, social control, and the loss of individuality.",
+    "price": 0,
+    "category": "Dystopian",
+    "image": "https://img.freepik.com/free-vector/dystopian-world-concept-illustration_23-2149361202.jpg?w=740"
+  },
+  {
+    "id": 15,
+    "name": "The Hobbit",
+    "title": "J.R.R. Tolkien's prelude to 'The Lord of the Rings,' following Bilbo Baggins' journey to reclaim treasure guarded by a dragon.",
+    "price": 0,
+    "category": "Fantasy",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1728724829~exp=1728728429~hmac=dbf5e821fdbcd9f59b83a58fe8085d28f629a2675f8fe3a5bdf37d7fe4efb703&w=740"
+  },
+  {
+    "id": 16,
+    "name": "The Brothers Karamazov",
+    "title": "Fyodor Dostoevsky's philosophical novel examining faith, free will, and the nature of human suffering.",
+    "price": 500,
+    "category": "Philosophical",
+    "image": "https://img.freepik.com/free-vector/philosophical-illustration_23-2149362302.jpg?w=740"
+  },
+  {
+    "id": 17,
+    "name": "Les Misérables",
+    "title": "Victor Hugo's epic story of love, justice, and redemption in post-revolutionary France.",
+    "price": 0,
+    "category": "Historical",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-historical-character-set_23-2149356095.jpg?w=740"
+  },
+  {
+    "id": 18,
+    "name": "Anna Karenina",
+    "title": "Leo Tolstoy’s tragic novel of passion and infidelity set against the backdrop of Russian aristocratic society.",
+    "price": 700,
+    "category": "Drama",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698286.jpg?w=740"
+  },
+  {
+    "id": 19,
+    "name": "Don Quixote",
+    "title": "Miguel de Cervantes' comic novel about the adventures of a man who believes himself to be a knight.",
+    "price": 0,
+    "category": "Classic",
+    "image": "https://img.freepik.com/free-vector/don-quixote-spanish-literature-illustration_23-2149342327.jpg?w=740"
+  },
+  {
+    "id": 20,
+    "name": "Fahrenheit 451",
+    "title": "Ray Bradbury’s dystopian novel about a future society where books are banned and 'firemen' burn them.",
+    "price": 0,
+    "category": "Dystopian",
+    "image": "https://img.freepik.com/free-vector/dystopian-city-concept-illustration_23-2149362945.jpg?w=740"
+  },
+  {
+    "id": 21,
+    "name": "The Picture of Dorian Gray",
+    "title": "Oscar Wilde's novel about a young man whose portrait ages while he remains young and beautiful, leading to moral corruption.",
+    "price": 0,
+    "category": "Classic",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-vintage-book-cover_23-2148702650.jpg?w=740"
+  },
+  {
+    "id": 22,
+    "name": "The Catch-22",
+    "title": "Joseph Heller's satirical novel about the absurdities of war and the bureaucratic rule that no one can escape.",
+    "price": 500,
+    "category": "Satire",
+    "image": "https://img.freepik.com/free-vector/catch-22-book-cover_23-2148698285.jpg?w=740"
+  },
+  {
+    "id": 23,
+    "name": "The Road",
+    "title": "Cormac McCarthy's post-apocalyptic novel about a father and son journeying through a desolate America.",
+    "price": 450,
+    "category": "Dystopian",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-vintage-book-cover_23-2148702650.jpg?w=740"
+  },
+  {
+    "id": 24,
+    "name": "The Alchemist",
+    "title": "Paulo Coelho's philosophical tale of a shepherd's journey to discover his personal legend and destiny.",
+    "price": 300,
+    "category": "Adventure",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698286.jpg?w=740"
+  },
+  {
+    "id": 25,
+    "name": "The Road Less Traveled",
+    "title": "M. Scott Peck's self-help book offering insights on personal growth and spiritual development.",
+    "price": 250,
+    "category": "Self-Help",
+    "image": "https://img.freepik.com/free-vector/self-help-book-cover-design_23-2148703993.jpg?w=740"
+  },
+  {
+    "id": 26,
+    "name": "The Secret Garden",
+    "title": "Frances Hodgson Burnett's classic children's novel about a neglected girl who discovers a hidden, magical garden.",
+    "price": 0,
+    "category": "Children's",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-vintage-book-cover_23-2148702650.jpg?w=740"
+  },
+  {
+    "id": 27,
+    "name": "A Tale of Two Cities",
+    "title": "Charles Dickens' historical novel set before and during the French Revolution, exploring themes of resurrection and sacrifice.",
+    "price": 400,
+    "category": "Historical",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698288.jpg?w=740"
+  },
+  {
+    "id": 28,
+    "name": "The Bell Jar",
+    "title": "Sylvia Plath's semi-autobiographical novel about a young woman's descent into mental illness and her struggle for identity.",
+    "price": 350,
+    "category": "Literary Fiction",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-vintage-book-cover_23-2148702650.jpg?w=740"
+  },
+  {
+    "id": 29,
+    "name": "The Kite Runner",
+    "title": "Khaled Hosseini's powerful story of friendship and betrayal set against the backdrop of a changing Afghanistan.",
+    "price": 300,
+    "category": "Drama",
+    "image": "https://img.freepik.com/free-vector/vintage-book-cover-design_23-2148698286.jpg?w=740"
+  },
+  {
+    "id": 30,
+    "name": "The Fault in Our Stars",
+    "title": "John Green's poignant novel about two teenagers who fall in love while battling cancer.",
+    "price": 200,
+    "category": "Young Adult",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-vintage-book-cover_23-2148702650.jpg?w=740"
   }
 ]

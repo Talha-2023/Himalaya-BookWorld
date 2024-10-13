@@ -3,30 +3,35 @@ import React from "react";
 const Cards = ({ item }) => {
   return (
     <>
-      <div className="rounded-xl bg-neutral w-96 shadow-xl my-10  ">
-        <div className="flex h-75">
+      <div className="rounded-xl bg-neutral w-96 shadow-xl my-10">
+        <div className="flex h-[280px] ">
           <div className="p-3 min-w-[50%] ">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src={item.image}
               alt="Shoes"
-              className="rounded-xl h-full object-cover "
+              className="rounded-xl object-cover h-full"
             />
           </div>
-          <div className="card-body items-center text-left ">
-            <h2 className="card-title text-teal-500">Brave New World </h2>
-            <p>
-              If a dog chews shoes whose shoes does he choose? sdfsdf asfd asdf
-              sdf asf asdf
-            </p>
+          <div className="card-body overflow-hidden  px-3">
+            <h2 className="card-title text-teal-500 text-base sm:text-lg">
+              {item.name}
+            </h2>
+            <p>{item.title}</p>
           </div>
         </div>
         <div className="p-3 flex justify-between">
           <div className="card-actions flex flex-col ">
-            <div className="badge badge-outline">Category: Fantesy</div>
-            <div className="badge badge-outline">Cost: $0</div>
+            <div className="badge badge-outline whitespace-nowrap">
+              Category: {item.category}
+            </div>
+            <div className="badge badge-outline badge-accent">
+              Cost: ${item.price}
+            </div>
           </div>
           <div className="card-actions">
-            <button className="btn btn-outline btn-accent">Read Now</button>
+            <button className="btn btn-accent  hover:bg-transparent hover:text-accent hover:border hover:border-accent">
+              Read Now
+            </button>
           </div>
         </div>
       </div>

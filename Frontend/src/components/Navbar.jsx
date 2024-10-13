@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -18,16 +19,16 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <Link to={"/"}>Home</Link>
       </li>
       <li>
-        <a>Course</a>
+        <Link to={"/course"}>Course</Link>
       </li>
       <li>
-        <a>Contact</a>
+        <Link>Contact</Link>
       </li>
       <li>
-        <a>About</a>
+        <Link>About</Link>
       </li>
     </>
   );
@@ -68,7 +69,7 @@ const Navbar = () => {
                 {navItems}
               </ul>
             </div>
-            <a className="text-2xl font-bold cursor-pointer text-teal-500">
+            <a className="text-xl sm:text-2xl md:text-3xl font-bold cursor-pointer text-teal-500">
               Himalaya BookWorld
             </a>
           </div>
