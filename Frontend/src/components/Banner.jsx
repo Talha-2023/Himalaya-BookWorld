@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row items-center my-16">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row items-center my-16 text-[#1F2937] dark:text-[#A6ADBB] ">
         <div className=" w-full  md:w-1/2 mt-12  md:mt-32">
           <div className="space-y-12 ">
             <h1 className="text-4xl font-bold">
@@ -15,7 +15,7 @@ const Banner = () => {
               impedit labore nulla quos commodi aliquid praesentium, veritatis
               corporis neque?
             </p>
-            <label className="input input-bordered input-accent whitespace-nowrap  flex items-center gap-2">
+            <label className="input input-bordered input-accent whitespace-nowrap dark:bg-[#1E232A]  flex items-center gap-2">
               Email |
               <input
                 type="text"

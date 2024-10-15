@@ -8,17 +8,18 @@ const Course = () => {
 
   return (
     <>
-      <div className="  mt-28 max-w-screen-2xl container mx-auto md:px-20 px-4hero  min-h-screen">
+      <div className="mt-16 max-w-screen-2xl container mx-auto md:px-20 px-4hero  min-h-screen">
         <div className="hero-content text-center ">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-6 sm:mt-8 md:mt-10">
               Your Presence Brightens Our Day! Welcome 😊
             </h1>
-            <p className="py-6">
+            <p class="py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl">
               Unlock a world of knowledge with our paid book section! Discover
               expertly written titles that offer unique perspectives and
               valuable insights. Your next great read awaits!
             </p>
+
             <a href="#paidBook">
               <button
                 id="paidBook"
