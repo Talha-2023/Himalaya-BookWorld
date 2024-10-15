@@ -5,7 +5,7 @@ import { HiLogin } from "react-icons/hi";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
   );
   const element = document.documentElement;
   useEffect(() => {
@@ -47,12 +47,12 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="dark:hover:bg-gray-700 rounded">
-        <Link className=" dark:focus:text-white" to={""}>
+        <Link className=" dark:focus:text-white" to={"/contact"}>
           Contact
         </Link>
       </li>
       <li className="dark:hover:bg-gray-700 rounded">
-        <Link className=" dark:focus:text-white" to={""}>
+        <Link className=" dark:focus:text-white" to={"/about"}>
           About
         </Link>
       </li>
@@ -92,7 +92,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                className="border menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  w-52 p-2 shadow-2xl dark:bg-[#1E232A] dark:border-gray-700"
               >
                 {navItems}
               </ul>
@@ -104,7 +104,9 @@ const Navbar = () => {
 
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-horizontal px-1">{navItems}</ul>
+              <ul className="menu menu-horizontal px-1 flex gap-1">
+                {navItems}
+              </ul>
             </div>
             <div className="hidden md:block">
               <label className="px-2 py-1 border border-teal-500  rounded-md flex items-center gap-2">
@@ -164,7 +166,7 @@ const Navbar = () => {
                   document.getElementById("my_modal_3").showModal()
                 }
               >
-                Login <HiLogin className="mt-1" />
+                Login <HiLogin className="mt-1 text-teal-500" />
               </a>
               <Login />
             </div>

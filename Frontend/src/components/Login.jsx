@@ -1,9 +1,18 @@
-import { HiLogin } from "react-icons/hi";
+import { useForm } from "react-hook-form";
 
-import React from "react";
+import { HiLogin } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
+import React from "react";
+
 const Login = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   return (
     <>
       <dialog id="my_modal_3" className="modal ">
@@ -14,10 +23,10 @@ const Login = () => {
             </button>
           </form>
           <h3 className="font-bold text-lg flex gap-1">
-            Login <HiLogin className="mt-1.5" />
+            Login <HiLogin className="mt-1.5 text-teal-500" />
           </h3>
           <div className="card  w-full ">
-            <form className="card-body px-0 ">
+            <form className="card-body px-0" onSubmit={handleSubmit(onSubmit)}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text dark:text-[#A6ADBB]">Email</span>
@@ -25,9 +34,14 @@ const Login = () => {
                 <input
                   type="email"
                   placeholder="email"
-                  className="input input-bordered dark:text-[#A6ADBB]"
-                  required
+                  className="input input-bordered dark:text-[#A6ADBB] focus:outline-none focus:ring-2 focus:ring-teal-500 dark:bg-neutral dark:border-gray-600 dark:placeholder-gray-400"
+                  {...register("email", { required: true })}
                 />
+                {errors.email && (
+                  <span className="text-sm text-red-600 absolute top-10 left-14">
+                    *This field is required
+                  </span>
+                )}
               </div>
               <div className="form-control">
                 <label className="label">
@@ -38,9 +52,15 @@ const Login = () => {
                 <input
                   type="password"
                   placeholder="password"
-                  className="input input-bordered dark:text-[#A6ADBB]"
-                  required
+                  className="input input-bordered dark:text-[#A6ADBB] focus:outline-none focus:ring-2 focus:ring-teal-500 dark:bg-neutral dark:border-gray-600 dark:placeholder-gray-400"
+                  {...register("password", { required: true })}
                 />
+                {errors.password && (
+                  <span className="text-sm text-red-600 absolute top-[134px] left-20">
+                    *This field is required
+                  </span>
+                )}
+
                 <label className="label">
                   <a
                     href="#"

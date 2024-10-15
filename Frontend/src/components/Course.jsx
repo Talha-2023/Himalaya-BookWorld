@@ -8,13 +8,13 @@ const Course = () => {
 
   return (
     <>
-      <div className="mt-16 max-w-screen-2xl container mx-auto md:px-20 px-4hero  min-h-screen">
+      <div className="pt-16 max-w-screen-2xl container mx-auto md:px-20 px-4hero  min-h-screen">
         <div className="hero-content text-center ">
           <div className="max-w-md">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-6 sm:mt-8 md:mt-10">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-6 sm:mt-8 md:mt-10">
               Your Presence Brightens Our Day! Welcome 😊
             </h1>
-            <p class="py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl">
+            <p className="py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl">
               Unlock a world of knowledge with our paid book section! Discover
               expertly written titles that offer unique perspectives and
               valuable insights. Your next great read awaits!
@@ -30,7 +30,7 @@ const Course = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-wrap justify-evenly">
+        <div className="flex flex-wrap justify-evenly mt-12 px-2">
           {filterData.map((item) => (
             <Cards key={item.id} item={item} />
           ))}

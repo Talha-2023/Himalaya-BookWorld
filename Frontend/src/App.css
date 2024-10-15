@@ -9,7 +9,24 @@ body {
 html {
   scroll-behavior: smooth;
 }
+body.dark {
+  background-color: #1e232a;
+  height: 100vh;
+}
 
 * {
   @apply transition-colors duration-100;
 }
+
+.mySwiper,
+.mySwiper * img {
+  transition: scale 1s;
+  overflow: visible;
+}
+
+.swiper-slide-active {
+  scale: 1.5;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); /* Apply the smooth transition */
+}
+/* Apply custom scrollbar styling to the entire body */
+/* Custom scrollbar styling for the entire body */

@@ -3,7 +3,7 @@ import React from "react";
 const Cards = ({ item }) => {
   return (
     <>
-      <div className="rounded-xl bg-slate-200	dark:bg-[#2B3440]   w-96 shadow-xl my-10 hover:scale-105 duration-200">
+      <div className="rounded-xl bg-slate-200	dark:bg-[#2B3440]  w-auto md:w-96 shadow-xl my-10 mx-1 hover:scale-105 duration-200">
         <div className="flex h-[280px] ">
           <div className="p-3 min-w-[50%] ">
             <img
