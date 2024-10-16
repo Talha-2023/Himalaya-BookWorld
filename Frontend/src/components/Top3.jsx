@@ -4,7 +4,7 @@ import { IoArrowDown } from "react-icons/io5";
 
 const Top3 = () => {
   return (
-    <div className="max-w-screen-2xl container mx-auto mt-40 md:mt-40 md:px-20 px-4 flex flex-col justify-center items-center  lg:h-fit h-[400px]">
+    <div className="lg:max-w-screen-2xl w-full overflow-hidden container mx-auto mt-40 md:mt-40 md:px-20 px-4 flex flex-col justify-center items-center  lg:h-fit h-[400px] ">
       <a href="#paidBook">
         <button
           id="paidBook"
